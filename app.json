@@ -1,16 +1,16 @@
 {
-    "name": "Droplink",
+    "name": "freeteraboxlink",
     "description": "Telegram's best ALL-In-One Multi Purpose RoBot. Create your Fork now.",
     "keywords": [
         "telegram",
-        "droplink"
+        "adlinkfly"
     ],
     "website": "https://github.com/Amul-jat/Droplink",
     "repository": "https://github.com/Amul-jat/Droplink",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token (must add)",
-            "value": ""
+            "value": "6419592264:AAH-D9CE9QZJOfcWkjSlVUg4bpENAwW-bJ0"
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
@@ -21,8 +21,8 @@
             "value": "ca991bfa07a6ac45e6d5f374c84ab05c"
         },
         "API_KEY": {
-            "description": "https://droplink.co/member/tools/api",
-            "value": "8e41249f9706af6c5bf2a1acb1c0b5af3c6ddf84"
+            "description": "https://freeteraboxlink.com/member/tools/api",
+            "value": "9b52e1b223d608a228fb1cfd96425e0d10251a07"
         },
         "CHANNEL": {
             "description": "Enter your telegram channel Username (must change and without @)",
