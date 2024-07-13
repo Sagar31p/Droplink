@@ -18,7 +18,7 @@ API_KEY = environ.get('API_KEY')
 CHANNEL = environ.get('CHANNEL')
 HOWTO = environ.get('HOWTO')
 
-bot = Client('Droplink bot', 
+bot = Client('adkinn bot', 
              api_id=API_ID, 
              api_hash=API_HASH,
              bot_token=BOT_TOKEN)
@@ -28,7 +28,7 @@ bot = Client('Droplink bot',
 async def start(bot, message):
     await message.reply(
         f"**Hi {message.chat.first_name}!**\n\n"
-        "I'm Droplink bot. Just send me link and get short link")
+        "I'm freeteraboxlink bot. Just send me link and get short link")
 
 @bot.on_message(filters.command('help') & filters.private)
 async def start(bot, message):
@@ -40,7 +40,7 @@ async def start(bot, message):
 async def start(bot, message):
     await message.reply(
         f"**Hey, {message.chat.first_name}!**\n\n"
-        "**please contact me on @kamdev07 or for more join @pdisk_Admins**")
+        "**please contact me on @ or for more join @pdi**")
     
 @bot.on_message(filters.text & filters.private)
 async def pdisk_uploader(bot, message):
@@ -73,7 +73,7 @@ async def pdisk_uploader(bot, message):
     
 async def pdisk_up(link):
     if ('mega' in link or 'google' in link or 'mdisk' in link or 'entertainvideo' in link or 'dood' in link or 'bit' in link ):
-        url = 'https://droplink.co/api'
+        url = 'https://freeteraboxlink.in/api'
         params = {'api': API_KEY, 'url': link}
     
         async with aiohttp.ClientSession() as session:
@@ -134,7 +134,7 @@ __#SavitaBhabhi #ComicVideo #Savita #Hindi #Sexy_voice #Kirtu #Savita_Bhabhi #Ve
 
 🔅How to Download -""" + HOWTO + """\n
 📣 Provide By @"""+ CHANNEL + """
-__🔊For all  Direct Comics folder lifetime Membership msg me on @Kamdev07 or Join- @vip_comics__"""
+__🔊For all  Direct Comics folder lifetime Membership msg me on @K7 or Join- @vi__"""
     return str + footer
         
 bot.run()
